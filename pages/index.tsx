@@ -47,30 +47,32 @@ const Home = () => {
         <Fade>
           <Reveal direction="right">
             <h1 className="dark:text-white text-5xl md:text-9xl font-serif">
-              hello world.
+              hello.
             </h1>
           </Reveal>
         </Fade>
         <Fade>
           <Reveal direction="right">
-            <h2 className="text-4xl md:text-8xl font-serif">this is a</h2>
+            <h2 className="text-4xl overflow-visible md:text-8xl leading-tight font-serif">this is <span className="text-pink">agaetis.io</span></h2>
           </Reveal>
         </Fade>
         <Fade>
           <Reveal direction="right">
             <h3 className="text-3xl md:text-7xl md:pt-4 font-serif">
+              we do
               <span className="text-blue">
+                {' '}
                 <ReactRotatingText
                   items={[
-                    'tailwind',
-                    'react',
-                    'typescript',
-                    'motion',
-                    'next.js',
+                    'development',
+                    'design',
+                    'branding',
+                    'consulting',
+                    'websites',
+                    'print'
                   ]}
-                />{' '}
+                />
               </span>
-              template.
             </h3>
           </Reveal>
         </Fade>
@@ -81,37 +83,21 @@ const Home = () => {
               <a
                 className="text-blue dark:text-pink hover:text-pink duration-200 transition-all"
                 target="__blank"
-                href="https://github.com/jessieleigh30"
+                href="https://ripplemdk.com/"
               >
-                jessieleigh30
+                ripplemdk
+
               </a>{' '}
               &&{' '}
               <a
                 className="text-blue dark:text-pink hover:text-pink duration-200 transition-all"
                 target="__blank"
-                href="https://github.com/jsfowles"
+                href="https://jsfowles.com"
               >
                 jsfowles
-              </a>{' '}
-              &&{' '}
-              <a
-                className="text-blue dark:text-pink hover:text-pink duration-200 transition-all"
-                target="__blank"
-                href="https://github.com/simplycomplexable"
-              >
-                simplycomplexable
               </a>
             </p>
           </Reveal>
-        </Fade>
-        <Fade>
-          <a
-            target="__blank"
-            className="font-mono text-xs hover:text-blue duration-200 transition-all"
-            href="https://github.com/jsfowles/tw-template"
-          >
-            github
-          </a>
         </Fade>
       </MotionParent>
     </div>
